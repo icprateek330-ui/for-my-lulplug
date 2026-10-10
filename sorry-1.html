@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>For Aditi 🌷</title>
+<style>
+:root{--bg1:#fff1f3;--bg2:#ffd6e0;--ink:#4a2433;--card:rgba(255,255,255,.7);--btn:#e0577f;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg1:#1a1020;--bg2:#40203a;--ink:#ffe8ee;--card:rgba(255,255,255,.1)}}
+:root[data-theme="dark"]{--bg1:#1a1020;--bg2:#40203a;--ink:#ffe8ee;--card:rgba(255,255,255,.1)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{margin:0;min-height:100vh;background:linear-gradient(180deg,var(--bg1),var(--bg2));color:var(--ink);font-family:Georgia,"Times New Roman",serif;display:flex;align-items:center;justify-content:center;padding:24px 20px;overflow-x:hidden}
+.glow{position:fixed;left:50%;top:38%;width:340px;height:340px;margin:-170px 0 0 -170px;border-radius:50%;background:radial-gradient(circle,rgba(255,120,160,.3),transparent 65%);animation:br 5s ease-in-out infinite;pointer-events:none}
+@keyframes br{50%{transform:scale(1.2);opacity:.6}}
+.wrap{width:100%;max-width:400px;text-align:center;position:relative;z-index:2}
+#stage.in{animation:in .7s ease-out}
+@keyframes in{from{opacity:0;transform:translateY(16px)}}
+h1{font-size:25px;line-height:1.35;margin:6px 0 14px}
+.line{font-size:23px;line-height:1.6;font-style:italic;margin:0 0 24px}
+.line.big{font-size:30px;font-style:normal;font-weight:700}
+.w{display:inline-block;opacity:0;filter:blur(9px);transform:translateY(10px);animation:wi 1s forwards;margin-right:.28em}
+@keyframes wi{to{opacity:1;filter:none;transform:none}}
+.sub{opacity:.8;font-size:16px;line-height:1.5;margin:0 0 14px}
+button,input{font:inherit;font-family:system-ui,sans-serif}
+button{border:0;border-radius:999px;padding:13px 26px;font-weight:700;cursor:pointer;color:var(--ink);background:var(--card);transition:transform .15s,opacity .8s,background .2s}
+button:active{transform:scale(.92)}
+.main{background:var(--btn);color:#fff;box-shadow:0 4px 0 rgba(0,0,0,.18);margin-top:6px}
+.fade{opacity:0;pointer-events:none}.fade.on{opacity:1;pointer-events:auto}
+input{width:100%;border:2px solid var(--btn);border-radius:16px;padding:14px;font-size:17px;background:var(--card);color:var(--ink);outline:0;text-align:center;margin-bottom:10px}
+.say{font-style:italic;font-size:18px;line-height:1.55;margin:14px 0;min-height:56px;animation:wi 1s}
+/* flower */
+.fl{position:relative;width:200px;height:230px;margin:0 auto 6px;transform-origin:50% 100%;animation:sw 4s ease-in-out infinite alternate}
+@keyframes sw{from{transform:rotate(-3deg)}to{transform:rotate(3deg)}}
+.stem{position:absolute;left:50%;bottom:0;width:6px;margin-left:-3px;height:0;background:linear-gradient(#5aa36a,#3d8453);border-radius:4px;animation:gr 1.6s ease-out forwards}
+@keyframes gr{to{height:120px}}
+.leaf{position:absolute;left:50%;bottom:40px;width:44px;height:22px;background:#5aa36a;margin-left:4px;transform:var(--t) scale(0);animation:lf .8s 1.1s forwards}
+.l1{--t:rotate(-25deg);border-radius:0 100% 0 100%}.l2{--t:rotate(-155deg) scaleX(-1);margin-left:-48px;border-radius:0 100% 0 100%}
+@keyframes lf{to{transform:var(--t) scale(1)}}
+.bl{position:absolute;left:50%;bottom:120px;width:0;height:0}
+.pe{position:absolute;left:-13px;top:-20px;width:26px;height:40px;border-radius:50%;background:linear-gradient(#ff8fb0,#ffc2d4);transform:rotate(var(--a)) translateY(-26px) scale(0);animation:bl .8s ease-out forwards}
+@keyframes bl{to{transform:rotate(var(--a)) translateY(-26px) scale(1)}}
+.ct{position:absolute;left:-16px;top:-16px;width:32px;height:32px;border-radius:50%;background:radial-gradient(#ffe27a,#ffb53d);transform:scale(0);animation:ctp .6s 2.4s forwards}
+@keyframes ctp{to{transform:scale(1)}}
+/* distance */
+.sky{position:relative;height:150px}
+.orb{position:absolute;top:50%;width:60px;height:60px;margin:-30px 0 0 -30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:30px;background:radial-gradient(circle,rgba(255,200,120,.7),rgba(255,200,120,.1) 70%);box-shadow:0 0 28px rgba(255,190,110,.8)}
+.oa{left:10%;animation:ma 5s .8s ease-in-out forwards,fo .5s 5.7s forwards}.ob{left:90%;animation:mb 5s .8s ease-in-out forwards,fo .5s 5.7s forwards}
+@keyframes ma{to{left:47%}}@keyframes mb{to{left:53%}}@keyframes fo{to{opacity:0}}
+.ln{position:absolute;top:50%;left:10%;width:80%;border-top:2px dotted var(--btn);animation:ls 5s .8s ease-in-out forwards,fo .5s 5.7s forwards}
+@keyframes ls{to{left:47%;width:6%}}
+.pl{position:absolute;top:50%;left:90%;width:9px;height:9px;margin:-5px;border-radius:50%;background:#fff;box-shadow:0 0 12px 3px var(--btn);animation:tr 1.8s ease-in-out 3 .8s both}
+@keyframes tr{to{left:10%}}
+.mg{position:absolute;left:50%;top:50%;font-size:70px;transform:translate(-50%,-50%) scale(0);animation:mg 1s 6s forwards,hb 1.3s 7s infinite;filter:drop-shadow(0 0 18px #ff7aa8)}
+@keyframes mg{to{transform:translate(-50%,-50%) scale(1)}}@keyframes hb{50%{transform:translate(-50%,-50%) scale(1.15)}}
+.lab{display:flex;justify-content:space-between;padding:0 6%;font-size:14px;opacity:.8;font-family:system-ui,sans-serif}
+/* get well */
+.gw{position:relative;width:190px;height:190px;margin:0 auto;display:flex;align-items:center;justify-content:center}
+.hr{font-size:84px;animation:pu 1.2s ease-in-out infinite;filter:drop-shadow(0 0 16px #ff7aa8)}
+@keyframes pu{50%{transform:scale(1.15)}}
+.rg{position:absolute;inset:25px;border:2px solid var(--btn);border-radius:50%;opacity:0;animation:rg 3s ease-out infinite}
+.rg:nth-child(2){animation-delay:1s}.rg:nth-child(3){animation-delay:2s}
+@keyframes rg{from{transform:scale(.5);opacity:.8}to{transform:scale(1.6);opacity:0}}
+.ob2{position:absolute;inset:0;animation:sp 7s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+.ob2 b{position:absolute;font-size:22px}
+.ob2 b:nth-child(1){left:50%;top:0}.ob2 b:nth-child(2){right:0;top:50%}.ob2 b:nth-child(3){left:50%;bottom:0}.ob2 b:nth-child(4){left:0;top:50%}
+.bj{display:inline-block;animation:bj 1.4s ease-in-out infinite}
+@keyframes bj{40%{transform:translateY(-8px)}}
+.bar{height:12px;border-radius:9px;background:var(--card);overflow:hidden;margin:10px 4px 6px}
+.bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,#ffb347,#ff7a9a);animation:fill 4.5s ease-out forwards}
+@keyframes fill{to{width:100%}}
+.gift{position:relative;width:110px;height:120px;margin:16px auto 0;animation:wob .6s ease-in-out 2}
+@keyframes wob{25%{transform:rotate(-8deg)}75%{transform:rotate(8deg)}}
+.bx{position:absolute;bottom:0;left:10px;width:90px;height:62px;background:var(--btn);border-radius:8px}
+.bx:after{content:"";position:absolute;left:50%;top:0;bottom:0;width:14px;margin-left:-7px;background:#ffd36e}
+.lid{position:absolute;bottom:62px;left:3px;width:104px;height:22px;background:#ff7aa8;border-radius:8px;z-index:3;transform-origin:left bottom;animation:lid .9s 1.3s forwards}
+@keyframes lid{to{transform:translate(22px,-50px) rotate(28deg);opacity:0}}
+.pop{position:absolute;left:50%;bottom:46px;font-size:60px;transform:translateX(-50%) scale(0);animation:pp .8s 1.5s forwards cubic-bezier(.3,1.7,.5,1)}
+@keyframes pp{to{transform:translate(-50%,-30px) scale(1)}}
+.late{opacity:0;animation:fi 1s 2.2s forwards}@keyframes fi{to{opacity:1}}
+.pr{position:absolute;inset:0;transform:rotate(-90deg)}
+.tk{fill:none;stroke:var(--card);stroke-width:10}.pgc{fill:none;stroke:var(--btn);stroke-width:10;stroke-linecap:round;transition:stroke-dashoffset .1s linear}
+.pc2{font-size:30px;font-weight:700;color:var(--btn);margin:8px 0 2px;font-family:system-ui,sans-serif}
+.sk{position:absolute;left:50%;top:50%;margin:-10px;font-size:20px;pointer-events:none;animation:sb 1.2s ease-out forwards}
+@keyframes sb{to{transform:translate(var(--x),var(--y)) scale(1.4);opacity:0}}
+/* quiz */
+.opts{display:flex;flex-direction:column;gap:9px}
+.opts button{background:var(--card);text-align:left;font-size:16px}
+.opts .sel{background:var(--btn);color:#fff}
+.hid{display:none!important}
+</style></head>
+<body>
+<div class="glow"></div>
+<main class="wrap"><div id="stage"></div></main>
+<script>
+const $=s=>document.querySelector(s),$$=s=>document.querySelectorAll(s),stage=$('#stage');
+let ans="";const res=[];
+function show(h){stage.innerHTML=h;stage.classList.remove('in');void stage.offsetWidth;stage.classList.add('in')}
+const later=(sel,ms)=>setTimeout(()=>$(sel)&&$(sel).classList.add('on'),ms);
+function words(t,big){return `<p class="line${big?' big':''}">${t.split(' ').map((x,i)=>`<span class="w" style="animation-delay:${i*.18}s">${x}</span>`).join('')}</p>`}
+const flower=()=>`<div class="fl"><div class="stem"></div><i class="leaf l1"></i><i class="leaf l2"></i><div class="bl">${Array.from({length:8},(_,i)=>`<i class="pe" style="--a:${i*45}deg;animation-delay:${1.4+i*.12}s"></i>`).join('')}<i class="ct"></i></div></div>`;
+
+function s0(){show(`${flower()}${words("First of all, here's a flower for my beautiful girl 🌷")}<button class="main fade" id="nx">→</button>`);later('#nx',4200);$('#nx').onclick=s1}
+function s1(){let done=false;show(`<h1>What would you like to have today?</h1><p class="sub">Anything at all. Type it in.</p><input id="in" placeholder="Type here..." maxlength="60"><button class="main" id="go">Tell me 💛</button><div id="res"></div><button class="main fade" id="nx">→</button>`);
+ const go=()=>{if(done)return;done=true;const v=$('#in').value.trim(),r=$('#res');$('#go').classList.add('hid');$('#in').classList.add('hid');
+  if(!v){ans="me";r.innerHTML=`<div class="gift"><div class="lid"></div><div class="bx"></div><div class="pop">😏</div></div><p class="say late">Nothing? Then you can have me 😏</p>`;later('#nx',3300)}
+  else{ans=v;r.innerHTML=`<p class="say"></p><div class="gift"><div class="lid"></div><div class="bx"></div><div class="pop">😏</div></div><p class="say late">And by the way, you can have me too 😏</p>`;r.firstChild.textContent=`"${v}" it is. Consider it ordered. 💛`;later('#nx',3300)}};
+ $('#go').onclick=go;$('#in').addEventListener('keydown',e=>{if(e.key==='Enter')go()});$('#nx').onclick=()=>s2()}
+function s2(){show(`<h1>Miles apart, same sky 🌙</h1><div class="sky"><div class="ln"></div><i class="pl"></i><div class="orb oa">🌙</div><div class="orb ob">⭐</div><div class="mg">💖</div></div><div class="lab"><span>Aditi</span><span>Me</span></div><p class="say">No distance can keep us apart for long.</p><button class="main fade" id="nx">→</button>`);later('#nx',7000);$('#nx').onclick=s3}
+function s3(){const t="Get well soon, my love";show(`<div class="gw"><svg viewBox="0 0 190 190" class="pr"><circle cx="95" cy="95" r="80" class="tk"/><circle cx="95" cy="95" r="80" class="pgc" id="pg"/></svg><i class="rg"></i><i class="rg"></i><div class="ob2"><b>🌿</b><b>💧</b><b>🍵</b><b>💊</b></div><div class="hr" id="hr">🤒</div></div><h1>${[...t].map((c,i)=>c===' '?' ':`<span class="bj" style="animation-delay:${i*.07}s">${c}</span>`).join('')}</h1><p class="pc2" id="pc">0%</p><p class="sub" id="st">Healing in progress...</p><button class="main fade" id="nx">→</button>`);
+ const pg=$('#pg'),C=502.65;pg.style.strokeDasharray=C;pg.style.strokeDashoffset=C;
+ const F=["🤒","😷","🥺","🙂","😊","🥰"],M=["Healing in progress...","Getting stronger...","Colour coming back...","Almost there...","Glowing again ✨","100% 💛 Aditi is officially feeling better"];
+ let p=0;const iv=setInterval(()=>{if(!$('#pg')){clearInterval(iv);return}p+=2;pg.style.strokeDashoffset=C*(1-p/100);$('#pc').textContent=p+'%';const k=Math.min(5,Math.floor(p/20)),h=$('#hr');
+  if(h.textContent!==F[k]){h.textContent=F[k];$('#st').textContent=M[k];h.style.animation='none';void h.offsetWidth;h.style.animation=''}
+  if(p>=100){clearInterval(iv);const g=$('.gw');for(let i=0;i<14;i++){const s=document.createElement('span'),a=i/14*6.283;s.className='sk';s.textContent=i%2?'✨':'🌟';s.style.cssText=`--x:${Math.cos(a)*125}px;--y:${Math.sin(a)*125}px`;g.appendChild(s)}$('#nx').classList.add('on')}},90);
+ $('#nx').onclick=()=>s4()}
+const L=["You don't have to carry the weight alone.","I know you've been tired, in body and in heart. Let me hold a little of it, even from far away.","I can't give those quiet days back, but I can be here for every day after them.","I'm sorry for the silence. You deserved someone who kept the phone close and the worry closer.","You are my favourite hello, and my hardest goodbye.","Rest now. Get strong. I'll be waiting, always."];
+function s4(i=0){show(`${words(L[i],i===0)}<button class="main fade" id="nx">${i===L.length-1?'One more thing 😄':'→'}</button>`);later('#nx',L[i].split(' ').length*180+900);$('#nx').onclick=()=>i<L.length-1?s4(i+1):s5()}
+const Q=[
+["Your sickness is acting very dramatic. What do you do?",[["Tell it to leave, I'm busy 💅","Sickness has been served an eviction notice."],["Cry and watch dramas 📺","Valid. Doctors recommend at least three episodes."],["Sleep for 14 hours 😴","Elite recovery strategy. Respect."],["Blame me for everything 😌","Honestly? Fair. I'll take it."]]],
+["Who's the best at taking care of you?",[["You, from very far away 📱","I'm trying so hard through this tiny screen 🥹"],["Soup 🍲","Soup wins. I can't compete with soup."],["Chotimoor ke laddu 🟠","Sweet, round and never lets you down. Dangerous competition."],["Me, obviously 👑","Correct. The queen heals herself."]]],
+["What cheers you up the fastest?",[["Playing with cute babies 👶","Cheek pinching is officially the best medicine."],["Hearing my voice 📞","Aww. I'll call the second you say so 🥹"],["A very dramatic movie 🎬","Popcorn, tears and plot twists. Perfect combo."],["Sleeping all day 😴","Rest mode on. Do not disturb the queen."]]],
+["How many hugs do I owe you?",[["1 hug 🤏","Stingy! Rejected. Try again."],["100 hugs 🤗","Deal. Countdown started."],["Infinite 🌌","Infinite hugs, free shipping included."],["With interest 📈","Fine. Hugs plus 10% annually."]]],
+["What should my punishment be?",[["Send 100 memes 🐸","Loading... your phone will never be quiet again."],["Be your clown for a week 🤡","Honk honk. Red nose already ordered."],["Both, obviously 😈","Deal: 100 memes and a week of clown duty. Signed in invisible ink."],["Buy all the snacks 🍫","Snack budget approved."]]]];
+function s5(i=0){const q=Q[i];show(`<h1>${q[0]}</h1><div class="opts">${q[1].map((o,k)=>`<button data-k="${k}">${o[0]}</button>`).join('')}</div><p class="say" id="say"></p><button class="main fade" id="nx">${i===Q.length-1?'Finish 💛':'Next →'}</button>`);
+ $$('.opts button').forEach(b=>b.onclick=()=>{$$('.opts button').forEach(x=>x.classList.remove('sel'));b.classList.add('sel');res[i]=[q[0],q[1][b.dataset.k][0]];const s=$('#say');s.style.animation='none';void s.offsetWidth;s.style.animation='';s.textContent=q[1][b.dataset.k][1];$('#nx').classList.add('on')});
+ $('#nx').onclick=()=>i<Q.length-1?s5(i+1):s6()}
+function s6(){show(`${flower()}<h1>Get well soon, Aditi 🌷</h1><p class="sub" id="o"></p><p class="say">No need to reply. Just rest, drink water, and let yourself heal. I love you, always. 💛</p><button class="main" id="snd">Send my answers 💌</button><p class="sub" style="font-size:13px">Only if you want to. It opens an email you send yourself.</p>`);
+ $('#o').textContent=ans==="me"?"And remember, you can always have me 😏":ans?`And your "${ans}" is waiting for you whenever you want it. (And so am I 😏)`:"Whatever you want today, it's yours.";
+ $('#snd').onclick=()=>{const b=`Aditi's answers 💌\n\nToday I'd like: ${ans==="me"?"nothing... you can have me 😏":ans||"-"}\n\n`+res.filter(Boolean).map(r=>`${r[0]}\n→ ${r[1]}`).join('\n\n')+`\n\nGet well soon to me 💛`;location.href="mailto:icprateek330@gmail.com?subject="+encodeURIComponent("My answers 💌")+"&body="+encodeURIComponent(b)}}
+s0();
+</script>
+</body></html>
